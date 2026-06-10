@@ -1,13 +1,13 @@
 # 🎬 CineShelf — Movie & Book Rating App
 
-![QA Pipeline](https://github.com/YOUR_USERNAME/movie-book-rater/actions/workflows/qa-pipeline.yml/badge.svg)
+![QA Pipeline](https://github.com/am-qa-engineer/movie-book-rater/actions/workflows/qa-pipeline.yml/badge.svg)
 ![Data Valid](https://img.shields.io/badge/Data-JSON%20on%20GitHub-gold)
 ![Selenium](https://img.shields.io/badge/Tests-Selenium%20%2B%20TestNG-green)
 ![Live Demo](https://img.shields.io/badge/Live-GitHub%20Pages-blue)
 
 > **A full-stack QA showcase project.** A live movie & book rating web app — with Selenium UI automation, GitHub API testing, JSON cloud storage, and a complete CI/CD pipeline. Built to demonstrate end-to-end QA engineering skills.
 
-**🌐 Live Demo:** [YOUR_USERNAME.github.io/movie-book-rater/app](https://YOUR_USERNAME.github.io/movie-book-rater/app)
+**🌐 Live Demo:** [am-qa-engineer.github.io/movie-book-rater/app](https://am-qa-engineer.github.io/movie-book-rater/app)
 
 ---
 
@@ -134,23 +134,23 @@ Every submitted rating creates a **real Git commit** — giving you a complete, 
 ## 🚀 Setup & Run
 
 ### View the live app
-Visit: `https://YOUR_USERNAME.github.io/movie-book-rater/app`
+Visit: `https://am-qa-engineer.github.io/movie-book-rater/app`
 
 ### Enable write access (submit ratings)
 1. Generate a GitHub Personal Access Token (PAT) with `repo` scope
 2. Open `app/index.html` and set `GITHUB_TOKEN = 'your_pat_here'`
-3. Set `GITHUB_USER = 'your_username'`
+3. Set `GITHUB_USER = 'am-qa-engineer'`
 
 ### Run UI tests locally
 ```bash
 cd tests/selenium
-mvn test -Dapp.url=https://YOUR_USERNAME.github.io/movie-book-rater/app/ -Dheadless=false
+mvn test -Dapp.url=https://am-qa-engineer.github.io/movie-book-rater/app/ -Dheadless=false
 ```
 
 ### Run API tests locally
 ```bash
 cd tests/api
-mvn test -Dgithub.user=YOUR_USERNAME
+mvn test -Dgithub.user=am-qa-engineer
 ```
 
 ---
@@ -182,4 +182,4 @@ mvn test -Dgithub.user=YOUR_USERNAME
 ## 👤 Author
 
 **[Your Name]** — QA Engineer  
-[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) • [GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) • [GitHub](https://github.com/am-qa-engineer)
