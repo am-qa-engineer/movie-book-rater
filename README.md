@@ -178,8 +178,3 @@ mvn test -Dgithub.user=am-qa-engineer
 - [ ] Playwright tests alongside Selenium
 
 ---
-
-## 👤 Author
-
-**[Your Name]** — QA Engineer  
-[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) • [GitHub](https://github.com/am-qa-engineer)
